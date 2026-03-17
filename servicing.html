@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- SEO description for search engines -->
+    <meta name="description"
+        content="Professional bike repair and maintenance. Fast, reliable service to keep your bike in top condition. Contact us to book.">
+    <meta name="keywords"
+        content="bike servicing, bicycle repair, bike maintenance, bike workshop Scotland, Bike King Borders service">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicing | Bike King Borders</title>
+    <!-- Google Fonts import -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!--  Header -->
+    <header>
+        <div class="container">
+            <div class="header-container">
+                <!-- Navigation Menu -->
+                <nav class="header-nav">
+                    <!-- Logo linking to homepage -->
+                    <a href="index.html">
+                        <img src="./images/logo1.png" alt="logo" width="150" height="150">
+                    </a>
+                    <!-- Navigation links -->
+                    <ul class="header-menu">
+                        <li><a class="nav-menu" href="index.html">Home</a></li>
+                        <li><a class="nav-menu" href="products.html">Products</a></li>
+                        <li><a class="nav-menu" href="servicing.html">Bike Servicing</a></li>
+                        <li><a class="nav-menu" href="hire.html">Bike Hire</a></li>
+                        <!-- Dropdown Menu -->
+                        <li class="dropdown"><a class="nav-menu" href="routes.html">Walking Routes</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="routes.html#droncar">Droncar</a></li>
+                                <li><a href="routes.html#muirdac">Muirdac</a></li>
+                                <li><a href="routes.html#leethorn">Leethorn</a></li>
+                                <li><a href="routes.html#airy">Airy</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="nav-menu" href="contact.html">Contact</a></li>
+                        <li>
+                            <!-- User account button with icon -->
+                            <button aria-label="User account" class="nav-icon-btn">
+                                <svg class="nav-icon" width="32" height="32">
+                                    <use href="./images/icons.svg#icon-user"></use>
+                                </svg>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Mobile burger menu button -->
+                <button class="header-burger" type="button" aria-label="Open menu">
+                    <svg width="24" height="24">
+                        <use href="./images/icons.svg#icon-menu"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Hero banner section and title -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="title-container">
+                    <h1 class="hero-title">Bike Servicing</h1>
+                </div>
+            </div>
+        </section>
+        <!-- Quick call contact section and hidden title -->
+        <section class="call-section">
+            <h2 class="visually-hidden">Call section</h2>
+            <div class="container call-wrapper">
+                <div class="call-title">
+                    <ul>
+                        <li>
+                            <p>For a quicker response call us:</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="call-contacts">
+                    <!-- Phone icon -->
+                    <ul class="call-icon">
+                        <li>
+                            <svg class="call-icon" width="32" height="32">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="tel:01999721724522">01999721 724 522</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Routes cards grid section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="visually-hidden">Bike Service</h2>
+                <div class="service-grid">
+                    <a href="#Gear-Service" class="service-card">
+                        <img src="./images/desctop/gears.jpg" alt="Gear Service">
+                        <h3>Gear Service £25</h3>
+                        <p>Complete drivetrain clean, check and lubrication to keep your bike running like new</p>
+                    </a>
+
+                    <a href="#Brake-Service" class="service-card">
+                        <img src="./images/desctop/shimano.jpg" alt="Brake Service">
+                        <h3>Brake Service £20</h3>
+                        <p>Complete brake check and service for reliable stopping power</p>
+                    </a>
+
+                    <a href="#Wheel-Service" class="service-card">
+                        <img src="./images/desctop/wheels.jpg" alt="Wheel Service">
+                        <h3>Wheel Service £25</h3>
+                        <p>Complete wheel check and hub service to maintain smooth and reliable performance</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- General service description -->
+        <section class="section">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="visually-hidden">Our servising</h2>
+                    <h3>All of our services include the following:</h3>
+                    <ul class="tick-list">
+                        <li>
+                            <svg class="tick-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-checkmark"></use>
+                            </svg>
+                            Free health check for your bicycle
+                        </li>
+                        <li>
+                            <svg class="tick-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-checkmark"></use>
+                            </svg>
+                            First class servicing at affordable prices
+                        </li>
+                        <li>
+                            <svg class="tick-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-checkmark"></use>
+                            </svg>
+                            Servicing built around the needs of your bicycle
+                        </li>
+                        <li>
+                            <svg class="tick-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-checkmark"></use>
+                            </svg>
+                            Free expert aftercare advice
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Gear Service section -->
+        <section class="section">
+            <div class="container">
+                <div class="hero-container" id="Gear-Service">
+                    <div class="service-image">
+                        <img src="./images/desctop/gear2.jpg" alt="Gear Service" width="640" height="427">
+                    </div>
+                    <div class="service-info">
+                        <h2 class="section-title">Gear Service £25</h2>
+                        <div class="service-text">
+                            <p>Our Gear Service is a full strip down and rebuild of the drivetrain of your bicycle.
+                                Our mechanics will clean, check and lubricate all the parts and recommend any
+                                replacement parts required.
+                                The aim is to ensure that your bicycle is returned to you with the drivetrain looking
+                                and operating as close to brand new as possible.
+                                The Gear Service includes all of the following:</p>
+                            <ul class="tick-list">
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Full bike inspection and report
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Gear cables checked for stretch and wear
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Chain checked for stretch and wear
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Chain and derailleurs removed and cleaned
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Chain replacement if required (cost of chain not Included)
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Cable replacement if required (cost of cables not included)
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Parts refitted and lubricated
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Gears fully re-indexed
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Brake Service section -->
+                <div class="hero-container" id="Brake-Service">
+                    <div class="service-image">
+                        <img src="./images/desctop/brake2.jpg" alt="Brake Service" width="640" height="427">
+                    </div>
+                    <div class="service-info">
+                        <h2 class="section-title">Brake Service £20</h2>
+                        <div class="service-text">
+                            <p>Maintaining your brakes is one of the most important things you can do for your bike.
+                                Our Brake Service is specifically targeted at ensuring that your brakes work reliably
+                                when you need them.
+                                Whether you have V-brakes, cable disc brakes or a hydraulic system our mechanics will
+                                inspect, clean,
+                                service and adjust your brakes to optimise performance.
+                                The Brake Service includes all of the following:</p>
+                            <ul class="tick-list">
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Full bike inspection and report
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Brake cables checked for stretch and wear or hoses checked for wear and tear
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Pad condition and wear checked and pads replaced if required (cost of pads not
+                                    included)
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Braking surfaces checked and cleaned, and rotors straightened where required
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Cables replaced where required (cost of cables not included) or brake system bled
+                                    or topped up as necessary (brake fluid free of charge)
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Full calliper alignment
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Full brake set up and adjustment
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Wheel Service section -->
+                <div class="hero-container" id="Wheel-Service">
+                    <div class="service-image">
+                        <img src="./images/desctop/wheel2.jpg" alt="Wheel Service" width="640" height="427">
+                    </div>
+                    <div class="service-info">
+                        <h2 class="section-title">Wheel Service £25</h2>
+                        <div class="service-text">
+                            <p>In our Wheel Service, our mechanics will give your wheels the attention they need.
+                                Keeping your wheels serviced is vital to the smooth running of your bicycle and helps to
+                                avoid the minor wheel ailments that build up over riding time.
+                                Within the service we will look after the wheels themselves and the internal workings of
+                                the hubs to make sure that are returned to factory standard.
+                                The Wheel Service includes all of the following:</p>
+                            <ul class="tick-list">
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Full bike inspection and report
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Wheels wiped and cleaned
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Hubs stripped, bearings checked, cleaned, greased or replaced where required (cost
+                                    of cartridge bearings not included)
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Wheel alignment and spoke tension checked and adjusted
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Broken spokes replaced where possible (up to 3 spokes free of charge)
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Tyres checked and inspected for damage and wear
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Tyres replaced if required (parts not included)
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Additional labour charges (only if required)
+                                </li>
+                                <li>
+                                    <svg class="tick-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-checkmark"></use>
+                                    </svg>
+                                    Full wheel rebuild £10 per wheel
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer with address and social media -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="section-logo">
+                <!-- Footer logo -->
+                <a href="index.html">
+                    <img src="./images/logo2.png" alt="logo" width="150" height="150">
+                </a>
+            </div>
+            <address class="footer-address">
+                <ul class="address-icon">
+                    <li>
+                        <!-- Disabled link for map -->
+                        <a href="#" aria-label="Google map" onclick="event.preventDefault()">
+                            <svg class="address-icon" width="32" height="32">
+                                <use href="./images/icons.svg#icon-location"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="address">
+                    <li>
+                        <p>Bike King Borders</p>
+                        <p>Unit 2, Wilderness Forest</p>
+                        <p>Borders, Scotland, EH99 6TT</p>
+                    </li>
+                </ul>
+            </address>
+            <!-- Contact info and social links -->
+            <address class="footer-info">
+                <div class="footer-contacts">
+                    <ul class="contacts-icon">
+                        <li>
+                            <svg class="address-icon" width="32" height="32">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>
+                        </li>
+                    </ul>
+                    <ul class="contacts">
+                        <li><a href="tel:01999721724522">01999721 724 522</a></li>
+                        <li><a href="mailto:hello@bikekingborders.co.uk">hello@bikekingborders.co.uk</a></li>
+                    </ul>
+                </div>
+                <!-- Social media icons -->
+                <div class="footer-icon">
+                    <a href="#" aria-label="Facebook" onclick="event.preventDefault()">
+                        <svg class="address-icon" width="32" height="32">
+                            <use href="./images/icons.svg#icon-facebook2"></use>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Instagram" onclick="event.preventDefault()">
+                        <svg class="address-icon" width="32" height="32">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="YouTube" onclick="event.preventDefault()">
+                        <svg class="address-icon" width="32" height="32">
+                            <use href="./images/icons.svg#icon-youtube"></use>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Tripadvisor" onclick="event.preventDefault()">
+                        <svg class="address-icon" width="32" height="32">
+                            <use href="./images/icons.svg#icon-tripadvisor"></use>
+                        </svg>
+                    </a>
+                </div>
+                <!-- Copyright text -->
+                <div class="footer-text">
+                    <p>&copy; 2025 BKB. All rights reserved.</p>
+                </div>
+            </address>
+        </div>
+    </footer>
+</body>
+
+</html>

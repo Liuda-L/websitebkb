@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- SEO description for search engines -->
+    <meta name="description"
+        content="Shop bicycles and cycling accessories at BKB. 
+        Find the perfect bike and gear for any ride. Exclusively in store. 
+        Special offers available on the website.">
+    <meta name="keywords"
+        content="mountain bikes, road bikes, cycling equipment, bike shop Scotland, buy bikes Bike King Borders">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Bike King Borders</title>
+    <!-- Google Fonts import -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!--  Header -->
+    <header>
+        <div class="container">
+            <div class="header-container">
+                <!-- Navigation Menu -->
+                <nav class="header-nav">
+                    <!-- Logo linking to homepage -->
+                    <a href="index.html">
+                        <img src="./images/logo1.png" alt="logo" width="150" height="150">
+                    </a>
+                    <!-- Navigation links -->
+                    <ul class="header-menu">
+                        <li><a class="nav-menu" href="index.html">Home</a></li>
+                        <li><a class="nav-menu" href="products.html">Products</a></li>
+                        <li><a class="nav-menu" href="servicing.html">Bike Servicing</a></li>
+                        <li><a class="nav-menu" href="hire.html">Bike Hire</a></li>
+                        <!-- Dropdown Menu -->
+                        <li class="dropdown"><a class="nav-menu" href="routes.html">Walking Routes</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="routes.html#droncar">Droncar</a></li>
+                                <li><a href="routes.html#muirdac">Muirdac</a></li>
+                                <li><a href="routes.html#leethorn">Leethorn</a></li>
+                                <li><a href="routes.html#airy">Airy</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="nav-menu" href="contact.html">Contact</a></li>
+                        <li>
+                            <!-- User account button with icon -->
+                            <button aria-label="User account" class="nav-icon-btn">
+                                <svg class="nav-icon" width="32" height="32">
+                                    <use href="./images/icons.svg#icon-user"></use>
+                                </svg>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Mobile burger menu button -->
+                <button class="header-burger" type="button" aria-label="Open menu">
+                    <svg width="24" height="24">
+                        <use href="./images/icons.svg#icon-menu"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Hero banner section and title -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="title-container">
+                    <h1 class="hero-title">Our Products</h1>
+                </div>
+            </div>
+        </section>
+        <!-- Quick call contact section and hidden title -->
+        <section class="call-section">
+            <h2 class="visually-hidden">Call section</h2>
+            <div class="container call-wrapper">
+                <div class="call-title">
+                    <ul>
+                        <li>
+                            <p>For a quicker response call us:</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="call-contacts">
+                    <!-- Phone icon -->
+                    <ul class="call-icon">
+                        <li>
+                            <svg class="call-icon" width="32" height="32">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="tel:01999721724522">01999721 724 522</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Product store description -->
+        <section class="section">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="visually-hidden">Our products</h2>
+                    <p>We have more than 100 hire bikes available at Bike King Borders,
+                        including top end demo models, full suspension trail bikes, hard-tails,
+                        kids bikes and tagalongs so we have something for all the family.
+                        With brand new bikes in stock from top quality brands like Trek, Orange,
+                        Genesis and Santa Cruz and an extensive range of clothing and accessories
+                        from brands including Gore Bike Wear, Endura, Shimano, Hope and Bontrager
+                        the shop will cater for a wide range of visitors to the forest.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Product cards grid section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="visually-hidden">Photos</h2>
+                <ul class="creations-grid">
+                    <!-- Product Card 1 -->
+                    <li class="creation-card">
+                        <article class="format-card">
+                            <!-- Responsive image (mobile vs desktop) -->
+                            <picture>
+                                <source srcset="./images/mobile/3web.webp" media="(max-width: 768px)">
+                                <img class="format-image" src="./images/desctop/3web.webp" alt="Offer1" width="1280"
+                                    height="800">
+                            </picture>
+                            <div class="card-header">
+                                <h3 class="name-item">Cube Bikes Kid 240</h3>
+                                <p class="price"><span>£360.00</span></p>
+                            </div>
+                            <ul class="text-item">
+                                <li>Lightweight aluminium frame</li>
+                                <li>24" Wheels- Ideal for Kids 130-160cm in height</li>
+                                <li>Suntour front suspension</li>
+                                <li>7 speed triple transmission</li>
+                                <li>Weight: 12.25kg</li>
+                            </ul>
+                        </article>
+                    </li>
+                    <!-- Product Card 2 -->
+                    <li class="creation-card">
+                        <article class="format-card">
+                            <!-- Responsive image (mobile vs desktop) -->
+                            <picture>
+                                <source srcset="./images/mobile/2web.webp" media="(max-width: 768px)">
+                                <img class="format-image" src="./images/desctop/2web.webp" alt="Offer2" width="1280"
+                                    height="800">
+                            </picture>
+                            <div class="card-header">
+                                <h3 class="name-item">Cannondale Synapse Disc Tiagra (2017) Road Bike</h3>
+                                <p class="price"><span>£950.00</span></p>
+                            </div>
+                            <ul class="text-item">
+                                <li>6069 an 6061 Aluminium frame</li>
+                                <li>Lifetime frame and fork warranty</li>
+                                <li>Tiagra Drivetrain</li>
+                                <li>Lightweight FSA Omega cranks</li>
+                                <li>Save plus micro suspension</li>
+                            </ul>
+                        </article>
+                    </li>
+                    <!-- Product Card 3 -->
+                    <li class="creation-card">
+                        <article class="format-card">
+                            <!-- Responsive image (mobile vs desktop) -->
+                            <picture>
+                                <source srcset="./images/mobile/1web.webp" media="(max-width: 768px)">
+                                <img class="format-image" src="./images/desctop/1web.webp" alt="Offer3" width="1280"
+                                    height="800">
+                            </picture>
+                            <div class="card-header">
+                                <h3 class="name-item">Whyte Womens Ridgeway Bike</h3>
+                                <p class="price"><span>£625.00</span></p>
+                            </div>
+                            <ul class="text-item">
+                                <li>Weight: 13.5kg</li>
+                                <li>Headset: FSA No.10, Semi Integrated, Caged Bearings</li>
+                                <li>Rims: WTB SX-17 700c, 32 hole with eyelets</li>
+                                <li>Chain: KMC CN-HG-53 9 speed</li>
+                                <li>Saddle: Whyte custom women's fit</li>
+                            </ul>
+                        </article>
+                    </li>
+                    <!-- Product Card 4 -->
+                    <li class="creation-card">
+                        <article class="format-card">
+                            <!-- Responsive image (mobile vs desktop) -->
+                            <picture>
+                                <source srcset="./images/mobile/5web.webp" media="(max-width: 768px)">
+                                <img class="format-image" src="./images/desctop/5web.webp" alt="Offer5" width="1280"
+                                    height="800">
+                            </picture>
+                            <div class="card-header">
+                                <h3 class="name-item">Trek Superfly 5 (2017) Mountain Bike</h3>
+                                <p class="price"><span>£775.00</span></p>
+                            </div>
+                            <ul class="text-item">
+                                <li>Hydro formed super light frame</li>
+                                <li>Race geometry for lower position and shortened chainstays</li>
+                                <li>Frame butted at multiple point for strength</li>
+                                <li>Custom offset fork for precise steering at low speed</li>
+                                <li>Hardtail mountain bike</li>
+                            </ul>
+                        </article>
+                    </li>
+                    <!-- Product Card 5 -->
+                    <li class="creation-card">
+                        <article class="format-card">
+                            <!-- Responsive image (mobile vs desktop) -->
+                            <picture>
+                                <source srcset="./images/mobile/6web.webp" media="(max-width: 768px)">
+                                <img class="format-image" src="./images/desctop/6web.webp" alt="Offer4" width="1280"
+                                    height="800">
+                            </picture>
+                            <div class="card-header">
+                                <h3 class="name-item">Cube Bikes Attain Race Disc (2017) <br> Road Bike</h3>
+                                <p class="price"><span>£1,099.00</span></p>
+                            </div>
+                            <ul class="text-item">
+                                <li>Weight: 9.8kg</li>
+                                <li>Aluminium Superlite Frame</li>
+                                <li>Shimano Tiagra drivetrain</li>
+                                <li>Integrated cable routing</li>
+                                <li>Tapered Head Tube and Fender option</li>
+                            </ul>
+                        </article>
+                    </li>
+                    <!-- Product Card 6 -->
+                    <li class="creation-card">
+                        <article class="format-card">
+                            <!-- Responsive image (mobile vs desktop) -->
+                            <picture>
+                                <source srcset="./images/mobile/7web.webp" media="(max-width: 768px)">
+                                <img class="format-image" src="./images/desctop/7web.webp" alt="Offer6" width="1280"
+                                    height="800">
+                            </picture>
+                            <div class="card-header">
+                                <h3 class="name-item">Trek Superfly 20</h3>
+                                <p class="price"><span>£279.00</span></p>
+                            </div>
+                            <ul class="text-item">
+                                <li>Lightweight aluminium frame</li>
+                                <li>24" Wheels- Ideal for Kids 130-160cm in height</li>
+                                <li>Suntour front suspension</li>
+                                <li>7 speed triple transmission</li>
+                                <li>Weight:12.25kg</li>
+                            </ul>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- Footer with address and social media -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Footer logo -->
+            <div class="section-logo">
+                <a href="index.html">
+                    <img src="./images/logo2.png" alt="logo" width="150" height="150">
+                </a>
+            </div>
+            <address class="footer-address">
+                <ul class="address-icon">
+                    <li>
+                        <!-- Disabled link for map -->
+                        <a href="#" aria-label="Google map" onclick="event.preventDefault()">
+                            <svg class="address-icon" width="32" height="32">
+                                <use href="./images/icons.svg#icon-location"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="address">
+                    <li>
+                        <p>Bike King Borders</p>
+                        <p>Unit 2, Wilderness Forest</p>
+                        <p>Borders, Scotland, EH99 6TT</p>
+                    </li>
+                </ul>
+            </address>
+            <!-- Contact info and social links -->
+            <address class="footer-info">
+                <div class="footer-contacts">
+                    <ul class="contacts-icon">
+                        <li>
+                            <svg class="address-icon" width="32" height="32">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>
+                        </li>
+                    </ul>
+                    <ul class="contacts">
+                        <li><a href="tel:01999721724522">01999721 724 522</a></li>
+                        <li><a href="mailto:hello@bikekingborders.co.uk">hello@bikekingborders.co.uk</a></li>
+                    </ul>
+                </div>
+                <!-- Social media icons -->
+                <div class="footer-icon">
+                    <a href="#" aria-label="Facebook" onclick="event.preventDefault()">
+                        <svg class="address-icon" width="32" height="32">
+                            <use href="./images/icons.svg#icon-facebook2"></use>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Instagram" onclick="event.preventDefault()">
+                        <svg class="address-icon" width="32" height="32">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="YouTube" onclick="event.preventDefault()">
+                        <svg class="address-icon" width="32" height="32">
+                            <use href="./images/icons.svg#icon-youtube"></use>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Tripadvisor" onclick="event.preventDefault()">
+                        <svg class="address-icon" width="32" height="32">
+                            <use href="./images/icons.svg#icon-tripadvisor"></use>
+                        </svg>
+                    </a>
+                </div>
+                <!-- Copyright text -->
+                <div class="footer-text">
+                    <p>&copy; 2025 BKB. All rights reserved.</p>
+                </div>
+            </address>
+        </div>
+    </footer>
+</body>
+
+</html>
